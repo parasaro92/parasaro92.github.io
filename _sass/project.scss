@@ -1,0 +1,57 @@
+#project {
+  min-height: 35em;
+  overflow: hidden;
+
+  hr {
+    background-color: #ff0;
+    width: 10em;
+    height: 2px;
+  }
+
+  .hr-star {
+    position: relative;
+    top: -2.3em;
+    display: inline-block;
+    color: yellow;
+    background-color: white;
+    width: 2em;
+    text-align: center;
+    margin-left: 31em;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-size: 3.1em;
+    margin-top: 2em;
+    color: #729BCC;
+  }
+
+  .btn-group .btn {
+    margin-right: 1em;
+    height: 2em;
+    border-radius: 7px;
+  }
+
+  .btng {
+    margin-bottom: 2em;
+  }
+
+  .btn-group {
+    margin-left: -4em;
+  }
+
+  .pad {
+    padding: 0 !important;
+  }
+
+  .img-pic {
+    position: relative;
+
+    .img-responsive {
+      width: 80%;
+      margin-left: 3em;
+      margin-bottom: 2em;
+    }
+  }
+}

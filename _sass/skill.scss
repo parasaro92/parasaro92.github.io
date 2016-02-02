@@ -1,0 +1,28 @@
+#skills {
+  background-color: #C7C9BB;
+  min-height: 100vh;
+  
+  h2 {
+    text-align: center;
+  }
+  .progress {
+    margin-top: -2em;
+    width: 21em;
+    height: 14px;
+    margin-left: 4em;
+  }  
+
+  .h4 {
+    margin-left: -2em;
+
+    .s {
+      // margin-left: -1em;
+    }
+  }
+
+  hr {
+    width: 14%;
+    height: 2px;
+    background-color: cyan;
+  }
+}

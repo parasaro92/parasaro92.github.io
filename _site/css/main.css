@@ -1,0 +1,164 @@
+body {
+  font-family: "Ubuntu", sans-serif; }
+
+header {
+  /* .lines {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    background: #141414;
+    width: 20px;
+    height: 2px;
+  
+    &::before {
+      position: absolute;
+      transition: linear .2s;
+    }
+  
+    &:after {
+      
+    }
+  } */ }
+  header .navbar-default .navbar-nav > li > a {
+    color: #FFF; }
+    header .navbar-default .navbar-nav > li > a:hover {
+      border-bottom: 1px solid white;
+      color: #F1B95E; }
+  header .navbar-default .navbar-nav {
+    position: relative;
+    right: 8em; }
+  header nav.navbar {
+    margin-bottom: 0;
+    background-color: #000;
+    border-width: 0 0 1px 0;
+    border-color: transparent; }
+    header nav.navbar.affix {
+      background-color: #2e3b4d; }
+    header nav.navbar.affix-top {
+      background-color: transparent; }
+    header nav.navbar a.navbar-brand .name {
+      color: #F1B95E;
+      font-size: 1.2em;
+      margin-left: 3em; }
+    header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:hover, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:visited, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:link {
+      border-bottom: 3px solid transparent;
+      color: #FFF;
+      transition: border-color 0.3s ease-in;
+      background-color: transparent; }
+    header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:hover {
+      border-color: rgba(255, 255, 255, 0.4); }
+
+#home {
+  min-height: 56vh; }
+  #home video {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity; }
+  #home .rel {
+    position: relative;
+    width: 385px;
+    height: 57px;
+    margin-left: 17em;
+    background-color: transparent;
+    margin-top: 15em;
+    border: 3px solid beige; }
+    #home .rel .text h1 {
+      text-align: center;
+      margin-top: 9px;
+      color: #1abc9c;
+      letter-spacing: 1px; }
+  #home .mouse {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 26px;
+    height: 46px;
+    border-radius: 13px;
+    border: 2px solid #3498db;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%); }
+  #home .fa-circle {
+    position: relative;
+    left: 7px;
+    top: 15px;
+    font-size: 0.8em;
+    background-color: #fff; }
+
+#profile {
+  background-color: #2ecc71;
+  height: 28em; }
+  #profile h2 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 2em; }
+  #profile hr {
+    margin-top: -3em;
+    border-width: 4px;
+    margin-bottom: 37px;
+    width: 22%;
+    border-color: #c8d9e5; }
+
+#skills {
+  background-color: #C7C9BB;
+  min-height: 100vh; }
+  #skills h2 {
+    text-align: center; }
+  #skills .progress {
+    margin-top: -2em;
+    width: 21em;
+    height: 14px;
+    margin-left: 4em; }
+  #skills .h4 {
+    margin-left: -2em; }
+  #skills hr {
+    width: 14%;
+    height: 2px;
+    background-color: cyan; }
+
+#project {
+  min-height: 35em;
+  overflow: hidden; }
+  #project hr {
+    background-color: #ff0;
+    width: 10em;
+    height: 2px; }
+  #project .hr-star {
+    position: relative;
+    top: -2.3em;
+    display: inline-block;
+    color: yellow;
+    background-color: white;
+    width: 2em;
+    text-align: center;
+    margin-left: 31em; }
+  #project h2 {
+    text-align: center;
+    font-size: 3.1em;
+    margin-top: 2em;
+    color: #729BCC; }
+  #project .btn-group .btn {
+    margin-right: 1em;
+    height: 2em;
+    border-radius: 7px; }
+  #project .btng {
+    margin-bottom: 2em; }
+  #project .btn-group {
+    margin-left: -4em; }
+  #project .pad {
+    padding: 0 !important; }
+  #project .img-pic {
+    position: relative; }
+    #project .img-pic .img-responsive {
+      width: 80%;
+      margin-left: 3em;
+      margin-bottom: 2em; }
