@@ -3,6 +3,28 @@
   background-image: url(../images/stars.jpg);
   background-size: cover;
 
+  .mouse {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 26px;
+    height: 46px;
+    border-radius: 13px;
+    border: 2px solid #3498db;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .fa-circle {
+    position: relative;
+    left: 7px;
+    top: 15px;
+    font-size: 0.8em;
+    color: #3498db;
+  }
+}
   // .rel {
   //   position: relative;
   //   width: 385px;
@@ -28,30 +50,3 @@
   //   }
   // }
 
-  .mouse {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    display: block;
-    margin: 0 auto;
-    width: 26px;
-    height: 46px;
-    border-radius: 13px;
-    border: 2px solid #3498db;
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%);
-  }
-
-  .fa-circle {
-    position: relative;
-    left: 7px;
-    top: 15px;
-    font-size: 0.8em;
-    color: #3498db;
-  }
-}
-
-// header .navbar {
-//   background-color: black;
-//   border-bottom: transparent;
-// }
