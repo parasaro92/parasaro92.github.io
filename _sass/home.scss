@@ -1,47 +1,32 @@
 #home {
-  // margin-bottom: 200px;
-  min-height: 56vh;
+  min-height: 98vh;
+  background-image: url(../images/stars.jpg);
+  background-size: cover;
 
-  video {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    // background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-    background-size: cover;
-    transition: 1s opacity;
-  }
+  // .rel {
+  //   position: relative;
+  //   width: 385px;
+  //   height: 57px;
+  //   margin-left: 18em;
+  //   background-color: transparent;
+  //   margin-top: 26em;
+  //   border: 3px solid beige;
 
+  //   &::after {
+  //     content: '';
+  //     display: table;
+  //     position: absolute;
+  //   }
 
-  .rel {
-    position: relative;
-    width: 385px;
-    height: 57px;
-    margin-left: 17em;
-    background-color: transparent;
-    margin-top: 15em;
-    border: 3px solid beige;
-
-    // &::after {
-    //   content: '';
-    //   display: table;
-    //   position: absolute;
-    // }
-
-    .text {
-      h1 {
-        text-align: center;
-        margin-top: 9px;
-        color: #1abc9c;
-        letter-spacing: 1px;
-      }
-    }
-  }
+  //   .text {
+  //     h1 {
+  //       text-align: center;
+  //       margin-top: 9px;
+  //       color: #1abc9c;
+  //       letter-spacing: 1px;
+  //     }
+  //   }
+  // }
 
   .mouse {
     position: absolute;
@@ -62,7 +47,7 @@
     left: 7px;
     top: 15px;
     font-size: 0.8em;
-    background-color: #fff;
+    color: #3498db;
   }
 }
 
