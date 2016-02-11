@@ -4,6 +4,10 @@ body {
 
 header {
 
+  .navbar-default .navbar-brand {
+    color: #fff;
+  }
+
   .navbar-default .navbar-nav>li>a {
     color: #FFF;
 
@@ -20,7 +24,8 @@ header {
 
   nav.navbar {
     margin-bottom: 0;
-    background-color: #000;
+    background-color: transparent;
+    font-size: large;
     border-width: 0 0 1px 0;
     border-color: transparent;
     opacity: 0.6;
@@ -56,36 +61,4 @@ header {
       }
     }
   }
-
-  // .toggle-btn {
-  //   position: fixed;
-  //   z-index: 999;
-  //   top: 0;
-  //   right: 0;
-  //   background: #fff;
-  //   width: 60px;
-  //   height: 60px;
-  //   margin: 0;
-  //   border: none;
-  //   line-height: 60px;
-  //   -webkit-transition: linear .2s;
-  // }
-
-  /* .lines {
-    position: relative;
-    vertical-align: middle;
-    display: inline-block;
-    background: #141414;
-    width: 20px;
-    height: 2px;
-  
-    &::before {
-      position: absolute;
-      transition: linear .2s;
-    }
-  
-    &:after {
-      
-    }
-  } */
 }
