@@ -1,5 +1,5 @@
 #contact {  
-  margin-left: 55px;
+  background-color: #ECECEA;
 
   hr {
     width: 34%;
@@ -10,23 +10,21 @@
   }
 
   .first-box{
-    padding: 10px;
+    padding: 25px;
     background: #9C0;
-    width: 39%;
-    position: absolute;
+    // position: absolute;
   }
 
   .second-box{
-    padding: 10px;
+    padding: 25px;
     background: #39F;
-    margin-left: 446px;
-    width: 46%;
+    // margin-left: 446px;
+    // position: relative;
   }
 
   .third-box{
-    padding: 15px;
+    padding: 11px;
     background: #F66;
-    width: 38.2%;
 
     .social-icons {
       font-size: 3vmin;
@@ -47,8 +45,7 @@
   }
 
   .fourth-box{
-    padding: 19px;
+    padding: 15px;
     background: #6CC;
-    width: 46%;
   }
 }
