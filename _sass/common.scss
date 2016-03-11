@@ -4,8 +4,9 @@ body {
 
 header {
 
-  .navbar-default .navbar-brand {
+  .navbar-brand {
     color: #fff;
+    font-size: 30px;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -13,7 +14,7 @@ header {
 
     &:hover {
       border-bottom: 1px solid white;
-      color: #000;
+      color: #fff;
     }
   }
 
@@ -24,11 +25,10 @@ header {
 
   nav.navbar {
     margin-bottom: 0;
-    background-color: gray;
+    background-color: #000;
     font-size: large;
     border-width: 0 0 1px 0;
     border-color: transparent;
-    opacity: 0.6;
 
     &.affix {
       background-color: #2e3b4d;
@@ -48,14 +48,14 @@ header {
       &.navbar-default .navbar-nav>li {
         &>a {
           &, &:hover, &:visited, &:link {
-           border-bottom: 3px solid transparent;
+           border-bottom: 1px solid transparent;
            color: #FFF;
            transition: border-color 0.3s ease-in;
            background-color: transparent;
           }
 
           &:hover {
-          border-color: rgba(255, 255, 255, 0.4);
+          border-color: rgba(255, 255, 255, 0.2);
           }
         }
       }
