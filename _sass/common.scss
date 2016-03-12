@@ -4,7 +4,7 @@ body {
 
 header {
 
-  .navbar-brand {
+  .navbar-default .navbar-brand {
     color: #fff;
     font-size: 30px;
   }
@@ -30,13 +30,13 @@ header {
     border-width: 0 0 1px 0;
     border-color: transparent;
 
-    &.affix {
-      background-color: #2e3b4d;
-    }
+    // &.affix {
+    //   background-color: #2e3b4d;
+    // }
 
-    &.affix-top {
-      background-color: #2E3B4D;
-    }
+    // &.affix-top {
+    //   background-color: #2E3B4D;
+    // }
 
     a.navbar-brand {
       .name {

@@ -1,48 +1,45 @@
 #home {
-  min-height: 98vh;
-  // background-image: url(../images/stars.jpg);
+  height: 100vh;
   background-size: cover;
 
   .move-up-name {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     text-align: center;
-    // position: relative;
-    margin-top: 5vh;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+    h1 {
+      color: #fff;
+      border: 1px solid #fff;
+      margin: 0 auto;
+      font-size: 7vw;
+      font-weight: 100;
+      width: 60vw;
+    }
+
+    h3{
+      color: #fff;
+      font-size: 3vw;
+      font-weight: 100;
+
+      .fa-heart{
+        color: red;
+      }
+    }
   }
 
   // .rel {
   //   position: relative;
   // }
 
-  .name h1 {
-    color: #fff;
-    border: 1px solid #fff;
-    width: 50%;
-    padding: 15px 30px;
-    display: inline-block;
-    position: relative;
-    top: 6em;
-    // margin-left: 11em;
-  }
 
-  .full-stack h3{
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    top: 9em;
-  }
 
-  .fa-heart{
-    font-size: 18px;
-    color: red;
-    position: relative;
-    top: 12em;
-  }
 
   #scroll-down {
     position: absolute;
     bottom: 2%;
-    left: 47%;
+    left: 48%;
     
     .fa-angle-double-down {
       color: #f5f5f5;
