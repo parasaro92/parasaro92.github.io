@@ -33,9 +33,4 @@ $('document').ready(function() {
       $('.rails2').fadeIn(1000);
       $('.rails3').fadeIn(1000);
     });
-
-    // $('header nav').affix({
-    // offset: {
-    //   top: 80
-    // }
 });

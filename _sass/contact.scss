@@ -1,18 +1,19 @@
 #contact {  
   background-color: #ECECEA;
+  // padding: 2em 0;
 
   hr {
-    width: 34%;
+    width: 7%;
     height: 2px;
     background-color: #00FFFF;
     margin-bottom: 39px;
-    margin-top: 0px;
+    margin-top: -7px;
   }
 
   .first-box{
     padding: 25px;
     background: #9C0;
-    height: 40vh;
+    min-height: 40vh;
     // position: absolute;
     .social-icons {
       font-size: 3vmin;
@@ -25,7 +26,7 @@
   .second-box{
     padding: 25px;
     background: #39F;
-    height: 40vh;
+    min-height: 40vh;
     .social-icons {
       font-size: 3vmin;
       margin-top: 2em;
@@ -37,7 +38,7 @@
   .third-box{
     padding: 25px;
     background: #F66;
-    height: 40vh;
+    min-height: 40vh;
     .social-icons {
       font-size: 3vmin;
       margin-top: 2em;
@@ -50,7 +51,7 @@
     padding: 25px;
     background: #6CC;
     overflow: hidden;
-    height: 40vh;
+    min-height: 40vh;
     a {
       color: #ECF0F1;
       text-decoration: none;
@@ -72,6 +73,17 @@
       margin-top: 2em;
       text-align: center;
       margin-left: -1em;
+    }
+  }
+
+  .bottom-social-icons {
+    margin-top: 3em;
+    text-align: right;
+
+    a {
+      &, &:hover {
+        color: #333;
+      }
     }
   }
 }

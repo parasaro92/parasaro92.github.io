@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // $('header nav').affix({
   //   offset: {
-  //     top: 50
+  //     top: 80
   //   }
   // });
 
