@@ -62,3 +62,56 @@ header {
     }
   }
 }
+
+footer{
+  background-color: $footer-color-one;
+  border-top: 1px solid $footer-color-two;
+  color: $footer-color-three;
+  font-size: .929em;
+  height: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border: transparent;
+
+  span{
+    color: $footer-span-color;
+    animation-iteration-count: infinite;
+  }
+
+  p{
+    color: #000;
+  }
+}
+
+.social{
+  margin-right: 15px;
+  margin-bottom: 20px;
+
+  a{
+    color: $footer-social-color;
+    opacity: .8;
+    transition: .35s;
+  
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  .fa-inverse {
+    background-color: #000;
+    border-radius: 1em;
+  }
+}
+
+
+.social-linkedin:hover{
+  color: $footer-linked-color;
+}
+
+.social-github:hover{
+  color: $footer-linked-color;
+}
+
+.social-mail:hover{
+  color: $footer-span-color;
+}
