@@ -23,7 +23,7 @@ $(function() {
     barColor: '#1abc9c',
     trackColor: "#ecf0f1",
     size: 160,
-    animate: 1000
+    animate: 5000
   });
 });
 
@@ -49,7 +49,7 @@ var EasyPieChart = function(el, opts) {
     size: 50,
     rotate: 0,
     animate: {
-      duration: 1000,
+      duration: 5000,
       enabled: true
     },
     easing: function (x, t, b, c, d) { // more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
@@ -116,7 +116,7 @@ var EasyPieChart = function(el, opts) {
 
     if (typeof(options.animate) === 'boolean' && !options.animate) {
       options.animate = {
-        duration: 1000,
+        duration: 5000,
         enabled: options.animate
       };
     }
@@ -384,7 +384,7 @@ var EasyPieChart = function(el, opts) {
     lineWidth: 15,
     size: 152,
     rotate: 0,
-    animate: 1000,
+    animate: 5000,
     easing: function (x, t, b, c, d) { // more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
       t = t / (d/2);
       if (t < 1) {
