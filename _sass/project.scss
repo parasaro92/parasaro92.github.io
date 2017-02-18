@@ -55,5 +55,16 @@
       margin-left: 3em;
       margin-bottom: 2em;
     }
+    .ui-left {
+
+      margin-left: 77px;
+    }
+  }
+  
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+  
+    .btn-group {
+      margin-left: -4em;
+    }
   }
 }

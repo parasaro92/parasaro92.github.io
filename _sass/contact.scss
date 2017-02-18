@@ -51,4 +51,32 @@
       }
     }
   }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+
+    .first-box{
+      padding: 25px;
+      background: #9C0;
+      min-height: 0vh;
+    }
+
+    .second-box{
+      padding: 25px;
+      background: #39F;
+      min-height: 0vh;
+    }
+
+    .third-box{
+      padding: 25px;
+      background: #F66;
+      min-height: 0vh;
+    }
+
+    .fourth-box{
+      padding: 25px;
+      background: #6CC;
+      overflow: hidden;
+      min-height: 0vh;
+    }
+  }
 }
