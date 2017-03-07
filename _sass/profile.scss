@@ -29,12 +29,16 @@
   .profile {
     position: absolute;
     top: -2vw;
-    left: 53%;
-    height: 198px;
-    width: 198px;
+    left: 55%;
+    height: 208px;
+    width: 237px;
     opacity: 1;
     border: 2px solid rgba(255, 255, 255, 0.5);
     -webkit-transform: translate(-50%, 0%);
+  }
+
+  .img-circle {
+    border-radius: 21%;
   }
 
   //   .icons {
