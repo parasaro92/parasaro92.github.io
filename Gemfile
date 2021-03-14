@@ -6,3 +6,5 @@ gem 'guard'
 gem 'guard-jekyll-plus'
 gem 'guard-livereload'
 
+
+gem "webrick", "~> 1.7"
