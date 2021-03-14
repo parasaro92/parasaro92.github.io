@@ -4,17 +4,16 @@ layout: default
 
 {% include header.html %}
 <section id="home">
-
-  <!-- <div class="row rel">
-    <div class="text">
-      <div class="col-sm-12 col-lg-12">
-        <h1 class="wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">Hi,I am Paras</h1>
-      </div>
+  <div class="js-count-particles"></div>
+  <!-- particles.js container --> 
+  <div id="particles-js"></div> 
+    <div class ="move-up-name">
+      <h1 class="wow type-it fadeIn" data-wow-duration="5s" data-wow-delay="0.5s">Hello, I'm Paras.</h1>  
+      <h3 class="wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s"><i class="fa fa-heart"></i> Front End Developer</h3>
     </div>
-  </div> -->
-  <div class="mouse">
-    <!-- <a href="#profile"></a> -->
-    <i class="fa fa-circle wow slideInDown" data-wow-duration="1s" data-wow-iteration = "1000"></i>
+    <div id = "scroll-down">
+     <a href="#profile"><i class="wow bounce fa fa-angle-double-down fa-4x" data-wow-duration="3.5s" data-wow-delay="0.5s" data-wow-iteration="100"></i></a>
+    </div>        
   </div>
 </section>
 
@@ -22,3 +21,4 @@ layout: default
 {% include skill.html %}
 {% include project.html %}
 {% include contact.html %}
+{% include footer.html %}

@@ -4,12 +4,17 @@ body {
 
 header {
 
+  .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+  }
+
   .navbar-default .navbar-nav>li>a {
     color: #FFF;
 
     &:hover {
       border-bottom: 1px solid white;
-      color: #F1B95E;
+      color: #fff;
     }
   }
 
@@ -21,17 +26,17 @@ header {
   nav.navbar {
     margin-bottom: 0;
     background-color: #000;
+    font-size: large;
     border-width: 0 0 1px 0;
     border-color: transparent;
-    opacity: 0.6;
 
-    &.affix {
-      background-color: #2e3b4d;
-    }
+    // &.affix {
+    //   background-color: #000;
+    // }
 
-    &.affix-top {
-      background-color: #2E3B4D;
-    }
+    // &.affix-top {
+    //   background-color: transparent;
+    // }
 
     a.navbar-brand {
       .name {
@@ -43,49 +48,83 @@ header {
       &.navbar-default .navbar-nav>li {
         &>a {
           &, &:hover, &:visited, &:link {
-           border-bottom: 3px solid transparent;
+           border-bottom: 1px solid transparent;
            color: #FFF;
            transition: border-color 0.3s ease-in;
            background-color: transparent;
           }
 
           &:hover {
-          border-color: rgba(255, 255, 255, 0.4);
+          border-color: rgba(255, 255, 255, 0.2);
           }
         }
       }
     }
   }
+}
 
-  // .toggle-btn {
-  //   position: fixed;
-  //   z-index: 999;
-  //   top: 0;
-  //   right: 0;
-  //   background: #fff;
-  //   width: 60px;
-  //   height: 60px;
-  //   margin: 0;
-  //   border: none;
-  //   line-height: 60px;
-  //   -webkit-transition: linear .2s;
-  // }
+footer{
+  background-color: $footer-color-one;
+  border-top: 1px solid $footer-color-two;
+  color: $footer-color-three;
+  font-size: 18px;
+  // height: 120px;
+  padding-top: 20px;
+  text-align: center;
+  border: transparent;
 
-  /* .lines {
-    position: relative;
-    vertical-align: middle;
-    display: inline-block;
-    background: #141414;
-    width: 20px;
-    height: 2px;
-  
-    &::before {
-      position: absolute;
-      transition: linear .2s;
+  span{
+    color: $footer-span-color;
+    animation-iteration-count: infinite;
+  }
+
+  p{
+    color: #000;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .footer_desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    h3 {
+      width: 600px;
+      color: #333;
     }
+  }
+}
+
+.social{
+  margin-right: 15px;
+  margin-bottom: 20px;
+
+  a{
+    color: $footer-social-color;
+    opacity: .8;
+    transition: .35s;
   
-    &:after {
-      
+    &:hover{
+      opacity: 1;
     }
-  } */
+  }
+
+  .fa-inverse {
+    background-color: #000;
+    border-radius: 1em;
+  }
+}
+
+
+.social-linkedin:hover{
+  color: $footer-linked-color;
+}
+
+.social-github:hover{
+  color: $footer-linked-color;
+}
+
+.social-mail:hover{
+  color: $footer-span-color;
 }

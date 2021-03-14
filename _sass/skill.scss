@@ -1,29 +1,67 @@
-#skills {
-  background-color: #C7C9BB;
-  min-height: 100vh;
-  
-  h2 {
-    text-align: center;
-  }
-  .progress {
-    margin-top: 1em;
-    width: 16em;
-    height: 14px;
-    margin-left: -1em;
-  }  
-
-  .h4 {
-    margin-left: -2em;
+#skills{
+  background-color: #DCEDC8;
+  // min-height: 100vh;
+  text-align: center;
+  padding: 3em 0;
+ 
+  .heading h2{
+    color: #333;
+    font-size: 2.5em;
+    font-weight: 500;
   }
 
-  hr {
-    width: 14%;
+  .skill-top{
+    margin-top: 4em;
+  }
+
+  .divider{
+    background-color: #333;
     height: 2px;
-    background-color: #00FFFF;
-    margin-bottom: 21px;
+    width: 80px;
+    margin: 30px auto
   }
 
-  .row {
-    margin-top: 12px;
+  .skillsArea{
+    padding: 0px;
+
+    .skills{
+      margin: 0 auto;
+      text-align: center;
+      padding: 0px;
+      float: none;
+
+      .percent {
+        color: #000;
+        display: inline-block;
+        font-size: 1.8em;
+        line-height: 60px;
+        margin-top: 2em;
+      }
+
+      h4{
+        text-transform:uppercase;
+        padding: 0;
+        color: #000;
+      }
+    }
+  }
+
+  .skill-mid{
+    margin-top: 4em;
+  }
+
+  .chart {
+    position: relative;
+    display: inline-block;
+    width: 152px;
+    height: 152px;
+    margin-bottom: 26px;
+    text-align: center;
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }
